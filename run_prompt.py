@@ -64,7 +64,7 @@ def run_prompt(user_question: str):
     return sql_query
 
 
-user_question = "Analyze power consumption patterns by hour of day for each season, comparing weekdays and weekends, and show when the cost of electricity is highest"
+user_question = "Is there evidence that electricity consumption decreases when prices are high? Compare consumption across different price brackets."
 
 if __name__ == "__main__":
     run_prompt(user_question)
