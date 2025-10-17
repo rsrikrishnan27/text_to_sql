@@ -1,0 +1,18 @@
+{
+  "Timestamp": "Time of data recording in 15-minute intervals.",
+  "Voltage_V_": "Electrical voltage measurement in volts.",
+  "Current_A_": "Electrical current measurement in amperes.",
+  "Power_Consumption_kW_": "Active power consumption in kilowatts.",
+  "Reactive_Power_kVAR_": "Reactive power measurement in kilovolt-amperes reactive, indicates energy efficiency.",
+  "Power_Factor": "Ratio of real power to apparent power, showing efficiency of power usage (usually between 0.8 and 1.0).",
+  "Solar_Power_kW_": "Power generated from solar sources in kilowatts.",
+  "Wind_Power_kW_": "Power generated from wind sources in kilowatts.",
+  "Grid_Supply_kW_": "Power drawn from the electrical grid in kilowatts.",
+  "Voltage_Fluctuation_": "Measurement of voltage variability or instability in the system.",
+  "Overload_Condition": "Binary indicator of system overload (1 = overload, 0 = normal).",
+  "Transformer_Fault": "Binary indicator of transformer fault occurrence (1 = fault, 0 = normal).",
+  "Temperature_C_": "Ambient temperature measurement in degrees Celsius.",
+  "Humidity_": "Relative humidity measurement as a percentage.",
+  "Electricity_Price_USD_kWh_": "Cost of electricity in US dollars per kilowatt-hour.",
+  "Predicted_Load_kW_": "Forecasted power load in kilowatts, target variable for energy prediction."
+}

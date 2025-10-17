@@ -1,0 +1,53 @@
+# --- Python build / cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+.DS_Store
+
+# --- Virtual environments ---
+venv/
+.env/
+.venv/
+txt_sql/
+
+# --- OS / Editor files ---
+.idea/
+.vscode/
+*.swp
+
+# --- Configs and keys ---
+config.json
+*.key
+*.env
+secrets.json
+
+# --- Logs ---
+#results_log.json
+logs/
+*.log
+
+# --- Databases and CSVs (optional) ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.csv
+*.tsv
+
+# --- Generated or temporary files ---
+*.bak
+*.tmp
+*.cache
+*.pid
+*.out
+*.gz
+*.zip
+*.tar
+*.tgz
+
+# --- Jupyter / notebooks ---
+*.ipynb_checkpoints/

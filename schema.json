@@ -1,0 +1,149 @@
+{
+  "table_name": "smartgrid",
+  "columns": [
+    {
+      "name": "Timestamp",
+      "type": "object",
+      "description": "Time of data recording in 15-minute intervals.",
+      "range": {
+        "min": "2024-01-01 00:00:00",
+        "max": "2025-06-04 19:45:00"
+      }
+    },
+    {
+      "name": "Voltage_V_",
+      "type": "float64",
+      "description": "Electrical voltage measurement in volts.",
+      "range": {
+        "min": 207.6719806823556,
+        "max": 252.3954212551288
+      }
+    },
+    {
+      "name": "Current_A_",
+      "type": "float64",
+      "description": "Electrical current measurement in amperes.",
+      "range": {
+        "min": 5.001238845994779,
+        "max": 49.99964190363347
+      }
+    },
+    {
+      "name": "Power_Consumption_kW_",
+      "type": "float64",
+      "description": "Active power consumption in kilowatts.",
+      "range": {
+        "min": 1.0891776167784215,
+        "max": 12.103199277549075
+      }
+    },
+    {
+      "name": "Reactive_Power_kVAR_",
+      "type": "float64",
+      "description": "Reactive power measurement in kilovolt-amperes reactive, indicates energy efficiency.",
+      "range": {
+        "min": 0.1136653188609056,
+        "max": 4.684119129531462
+      }
+    },
+    {
+      "name": "Power_Factor",
+      "type": "float64",
+      "description": "Ratio of real power to apparent power, showing efficiency of power usage (usually between 0.8 and 1.0).",
+      "range": {
+        "min": 0.8000009557218327,
+        "max": 0.9999965969465038
+      }
+    },
+    {
+      "name": "Solar_Power_kW_",
+      "type": "float64",
+      "description": "Power generated from solar sources in kilowatts.",
+      "range": {
+        "min": 0.0001149091309049,
+        "max": 49.99896307093212
+      }
+    },
+    {
+      "name": "Wind_Power_kW_",
+      "type": "float64",
+      "description": "Power generated from wind sources in kilowatts.",
+      "range": {
+        "min": 6.681887121606778e-05,
+        "max": 29.997815334304978
+      }
+    },
+    {
+      "name": "Grid_Supply_kW_",
+      "type": "float64",
+      "description": "Power drawn from the electrical grid in kilowatts.",
+      "range": {
+        "min": 0.0,
+        "max": 10.766046003831494
+      }
+    },
+    {
+      "name": "Voltage_Fluctuation_",
+      "type": "float64",
+      "description": "Measurement of voltage variability or instability in the system.",
+      "range": {
+        "min": -4.999912912023533,
+        "max": 4.999946092561705
+      }
+    },
+    {
+      "name": "Overload_Condition",
+      "type": "int64",
+      "description": "Binary indicator of system overload (1 = overload, 0 = normal).",
+      "range": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "Transformer_Fault",
+      "type": "int64",
+      "description": "Binary indicator of transformer fault occurrence (1 = fault, 0 = normal).",
+      "range": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "Temperature_C_",
+      "type": "float64",
+      "description": "Ambient temperature measurement in degrees Celsius.",
+      "range": {
+        "min": 10.000015565336996,
+        "max": 39.99994944582863
+      }
+    },
+    {
+      "name": "Humidity_",
+      "type": "float64",
+      "description": "Relative humidity measurement as a percentage.",
+      "range": {
+        "min": 20.00042286473867,
+        "max": 79.99792263634268
+      }
+    },
+    {
+      "name": "Electricity_Price_USD_kWh_",
+      "type": "float64",
+      "description": "Cost of electricity in US dollars per kilowatt-hour.",
+      "range": {
+        "min": 0.1000020989674619,
+        "max": 0.4999957727741508
+      }
+    },
+    {
+      "name": "Predicted_Load_kW_",
+      "type": "float64",
+      "description": "Forecasted power load in kilowatts, target variable for energy prediction.",
+      "range": {
+        "min": 1.0434866836365604,
+        "max": 12.483253325324592
+      }
+    }
+  ]
+}

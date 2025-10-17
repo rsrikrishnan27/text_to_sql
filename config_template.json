@@ -1,0 +1,38 @@
+{
+  "database": {
+    "tables": {
+      "smartgrid": "schema.json"
+    }
+  },
+
+  "files": {
+    "log": "results_log.json"
+  },
+
+  "model": {
+    "name": "gemini-2.5-flash",
+    "api_key": "API KEY HERE"
+  },
+
+  "prompt": {
+    "mode": "full",
+    "examples_enabled": true,
+    "include_schema": true,
+    "output_format": "sql_only"
+  },
+
+  "logging": {
+    "enabled": true,
+    "include_prompt": true,
+    "fields": [
+      "timestamp",
+      "start_time",
+      "end_time",
+      "elapsed_seconds",
+      "user_query",
+      "model_name",
+      "examples_enabled",
+      "sql_output"
+    ]
+  }
+}
