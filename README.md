@@ -1,7 +1,6 @@
 # Text-to-SQL
 
-A lightweight PoC that converts natural language questions into SQLite queries using **Gemini 2.5 Flash**.  
-Data source: **Kaggle Smart Grid dataset**.  
+A lightweight PoC that converts natural language questions into SQLite queries using **Gemini 2.5 Flash**.
 
 ---
 
