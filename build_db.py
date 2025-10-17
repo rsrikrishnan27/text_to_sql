@@ -20,7 +20,7 @@ df.columns = (df.columns.str.strip().str.replace('[^A-Za-z0-9_]+', '_', regex=Tr
 # === CREATE SQLITE DB ===
 with sqlite3.connect(DB_FILE) as conn:
     df.to_sql(TABLE_NAME, conn, if_exists="replace", index=False)
-print(f"✅ Database '{DB_FILE}' created with table '{TABLE_NAME}' ({len(df)} rows).")
+print(f"Database '{DB_FILE}' created with table '{TABLE_NAME}' ({len(df)} rows).")
 
 # === LOAD DESCRIPTIONS ===
 # Load descriptions from the JSON file
@@ -71,6 +71,6 @@ for col in df.columns:
 with open("schema.json", "w") as f:
     json.dump(schema, f, indent=2)
 
-print(f"✅ Schema JSON created with {len(schema['columns'])} columns.")
+print(f"Schema JSON created with {len(schema['columns'])} columns.")
 
 

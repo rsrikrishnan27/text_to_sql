@@ -22,7 +22,7 @@ def get_all_queries():
         with open(LOG_FILE, "r") as f:
             logs = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        print("⚠️ No valid log data found.")
+        print("No valid log data found.")
         return []
 
     if not isinstance(logs, list):
@@ -43,7 +43,7 @@ def run_sql_query(sql_query: str):
         print(df)
         return df
     except Exception as e:
-        print(f"❌ Error executing query: {e}")
+        print(f"Error executing query: {e}")
         return None
 
 
